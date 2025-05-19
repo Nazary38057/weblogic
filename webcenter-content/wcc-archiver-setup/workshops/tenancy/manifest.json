@@ -1,0 +1,37 @@
+{
+    "workshoptitle": "WebCenter Content Archiver Setup",
+    "description": "This workshop provides detailed guide to setup WebCenter Content Archiver on Source and Target WebCenter Content Instance. It also provides detailed guide to create an APEX application and access REST APIs using OAuth on WebCenter Content Server",
+    "help": "nazar.doroshenko@oracle.com",
+    "tutorials": [
+        {
+            "title": "Introduction",
+            "description": "This lab provides detailed guide to create an APEX application and access REST APIs using OAuth on WebCenter Content Server",
+            "filename": "./../../introduction/introduction.md"
+        },
+        {
+            "title": "Lab 1: Configure the Archiver on the Target WebCenter Content instance",
+            "description": "How to setup the Archiver on Target WebCenter Content InstanceN",
+            "filename": "../../01-target-archiver-setup/01-target-archiver-setup.md"
+        },
+        {
+            "title": "Lab 2: Setup Archiver on Target WebCenter Content Instance",
+            "description": "How to setup the Archiver on Source WebCenter Content Instance",
+            "filename": "./../../02-source-archiver-setup/02-source-archiver-setup.md"
+        },
+        {
+            "title": "Lab 3: Export an Archive Collection from the Source instance and transfer it to the Target instance",
+            "description": "This lab provides detailed guide to export content on Source WebCeneter Content Instance and transfer it to Target Instance",
+            "filename": "./../../03-source-archiver-export/03-source-archiver-export.md"
+        },
+        {
+            "title": "Lab 4: Import transferred Source Content Archive in Target WebCenter Content instance",
+            "description": "This lab shows you how to create new workspace and create new APEX Application",
+            "filename": "./../../04-target-archive-import/04-target-archive-import.md"
+        },
+        {
+            "title": "Need Help?",
+            "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+            "filename": "https://oracle-livelabs.github.io/common/labs/need-help/need-help-freetier.md"
+        }
+    ]
+}
